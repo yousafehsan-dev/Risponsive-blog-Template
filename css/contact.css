@@ -1,0 +1,25 @@
+.contact-contant {
+    height: 100vh;
+    /* background-color: rgb(189, 184, 235); */
+    display: block;
+    margin-top: 32px;
+    background-size: cover;
+    position: relative;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.contact-contant::after {
+    content: "";
+    background-image: url('../img/art3.png.png');
+    position: absolute;
+    top: 12px;
+    opacity: 0.16;
+    width: 100%;
+    height: inherit;
+    z-index: -1;
+
+}
+
+
+
